@@ -12,7 +12,7 @@ from llm import getStreamingChain
 EMBEDDING_MODEL = "nomic-embed-text"
 PATH = "Research"
 
-st.title("Local LLM with RAG 📚")
+st.title("CampusGuideAI 📚")
 
 if "list_of_models" not in st.session_state:
     st.session_state["list_of_models"] = get_list_of_models()
